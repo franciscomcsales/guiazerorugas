@@ -53,14 +53,14 @@ const q3 = {
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
 const questoes = [q0, q1, q2, q3]
 
-let numero = document.querySelector('#numero')
-let total  = document.querySelector('#total')
+let numero;
+let total;
 
-numero.textContent = q1.numQuestao
+numero = q1.numQuestao
 
 let totalDeQuestoes = (questoes.length)-1
 console.log("Total de questões " + totalDeQuestoes)
-total.textContent = totalDeQuestoes
+total = totalDeQuestoes
 
 // MONTAR A 1a QUESTAO COMPLETA, para iniciar o Quiz
 numQuestao = q1.numQuestao
@@ -74,7 +74,7 @@ b.setAttribute('value', '1B')
 
 // PARA MONTAR AS PROXIMAS QUESTOES
 function proximaQuestao(nQuestao) {
-    numero.textContent = nQuestao
+    numero = nQuestao
     numQuestao.textContent = questoes[nQuestao].numQuestao
     pergunta.textContent   = questoes[nQuestao].pergunta
     a.textContent = questoes[nQuestao].alternativaA
@@ -166,5 +166,5 @@ function verificarSeAcertou(nQuestao, resposta) {
 }
 
 function fimDoJogo() {
-    window.location.href = "https://guiazerorugas.site/pv/pv1";
+    window.location.href = "/pv1/index.html";
 }
