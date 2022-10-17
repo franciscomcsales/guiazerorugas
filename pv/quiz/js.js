@@ -166,5 +166,5 @@ function verificarSeAcertou(nQuestao, resposta) {
 }
 
 function fimDoJogo() {
-    window.location.href = "https://guiazerorugas.site/pv/pv1/pv.html";
+    window.location.href = "https://guiazerorugas.site/pv/pv1";
 }
