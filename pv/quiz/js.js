@@ -166,5 +166,5 @@ function verificarSeAcertou(nQuestao, resposta) {
 }
 
 function fimDoJogo() {
-    window.location.href = "/pv/index.html";
+    window.location.href = "/pv/pv.html";
 }
