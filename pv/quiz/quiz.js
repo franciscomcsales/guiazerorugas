@@ -162,5 +162,5 @@ function verificarSeAcertou(nQuestao, resposta) {
 }
 
 function fimDoJogo() {
-    window.location.href = "/pv1/index.html";
+    window.location.href = "/pv/pv1/index.html";
 }
