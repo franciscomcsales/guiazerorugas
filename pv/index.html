@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<!-- QUIZ -->
 <head>
   <link rel="icon" href="images/favicon.png" />
   <meta charset="UTF-8">
@@ -20,14 +20,14 @@
       <h1></h1>
 
       <article class='centro' id='instrucoes'>
-        <font color="#03a9f4">Selecione uma resposta</font>
+        <font color="#A8DADC">Selecione uma resposta</font>
       </article>
 
       <article class='questoes'>
 
         <header class='questao'>
           <!-- <span id='numQuestao'></span> -->
-          <h2 id='pergunta'></h2>
+          <h2 id='pergunta' style="color: #245759"></h2>
         </header>
         <!--
                 <figure class='imagemDaQuestao'>
@@ -36,8 +36,8 @@
                 -->
         <div class='corpo'>
           <ol type='A' id='alternativas'>
-            <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
-            <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+            <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)' style="color: #245759"></li>
+            <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)' style="color: #245759"></li>
             <!-- <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
                         <li id='d' value='1D' class='respostas' onClick='verificarSeAcertou(this, this)'></li> -->
           </ol>
@@ -51,12 +51,12 @@
         <!-- <span id='numero'></span> de <span id='total'></span> -->
       </article>
 
-      <footer id='autoria' class='centro'>Método Rugas Nunca Mais &copy; 2022
+      <footer id='autoria' style="color: #c2c2c2" class='centro'>Método Rugas Nunca Mais &copy; 2022
         <div style="display:flex;align-items:center;justify-content:center;margin-top:24px;">
-          <a id="t" style="margin-right:12px;font-size:1rem;color: #03a9f4" href="#">
+          <a id="t" style="margin-right:12px;font-size:1rem;color: #c2c2c2" href="#">
             Termos de Uso
           </a> <span style="margin-right:12px">·</span>
-          <a id="p" style="font-size:1rem; color: #03a9f4" href="#">
+          <a id="p" style="font-size:1rem; color: #c2c2c2" href="#">
             Privacidade
           </a>
         </div>

@@ -4,10 +4,10 @@
 
 /* vermelho #f44336 ou #d50000 verde #4caf50 ou #1b5e20  */
 :root {
-    --principal: #03a9f4;
-    --secundaria: #0d47a1;
-    --azul-escuro: #0d47a1;
-    --cinza-escuro: #222;
+    --principal: #245759;
+    --secundaria: #245759;
+    --azul-escuro: #245759;
+    --cinza-escuro: rgb(255, 255, 255);
     --branco: #fff;
     --verde: #4caf50;
     --vermelho: #f44336;
@@ -24,9 +24,14 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: #ececec;
+    background: linear-gradient(rgba(29, 53, 87, 0.6375), rgba(29, 53, 87, 0.6375)), url('https://img.imageboss.me/atm/cdn/u/3gEIylv7L4aXC2PbmTRqcmlRCgw2/l/vpBNtn9767100.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: #ececec; */
     color: #191919;
     overflow-x: hidden;
+
 }
 
 main {
@@ -60,7 +65,7 @@ h1 {
 /* classe para centralizar textos, paragrafos */
 .centro {
     text-align: center;
-    
+
 }
 
 /* div class questao com numero da questao e pergunta */
